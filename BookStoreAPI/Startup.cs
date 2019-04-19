@@ -30,6 +30,8 @@ namespace BookStoreAPI
             {
                 await context.Response.WriteAsync("Hello World!");
             });
+
+            app.UseMvc();
         }
     }
 }
